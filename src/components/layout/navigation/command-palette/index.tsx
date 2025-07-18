@@ -55,7 +55,7 @@ const CommandPalette = ({ open, onOpenChange }: CommandPaletteProps) => {
       label: "Ver Código",
       icon: Eye,
       action: () => {
-        window.open("https://github.com/Gbmesquita-costa");
+        window.open("https://github.com/Gbmesquita-costa/gmesquita.dev");
         onOpenChange(false);
       },
       shortcut: "S",
