@@ -18,6 +18,7 @@
     "check:blog": "node -e \"const fs = require('fs'); const dirs = ['src/articles', 'public/static/posts']; dirs.forEach(dir => console.log(dir + ':', fs.existsSync(dir) ? '✅' : '❌'));\""
   },
   "dependencies": {
+    "@next/third-parties": "^15.4.2",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
     "@radix-ui/react-slot": "^1.2.3",
